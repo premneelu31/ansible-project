@@ -2,7 +2,7 @@
 ###
 ---
 - name: this for creating a playbook for copying file
-  host: all
+  host: localhost
   become: yes
   tasks:
     - name: create a file
