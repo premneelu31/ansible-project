@@ -8,7 +8,4 @@
     - name: create a file
       shell:
 # this is tetsing for pull request
-## adding on more line
-- name: create a patching playbook
-  yum:
----
+## removed few line fom file
