@@ -1,0 +1,10 @@
+#this is prem . 
+###
+---
+- name: this for creating a playbook for copying file
+  host: all
+  become: yes
+  tasks:
+    - name: create a file
+      shell:
+# this is tetsing for pull request
